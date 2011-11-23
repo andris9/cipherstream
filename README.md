@@ -1,6 +1,6 @@
 # cipherstream
 
-**cipherstream** is a thin streaming layer for encryption/decryption.
+**cipherstream** is a thin streaming layer for encryption/decryption in Node.JS.
 
 ## Installation
 
