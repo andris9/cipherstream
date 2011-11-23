@@ -1,0 +1,26 @@
+{
+    "name": "cipherstream",
+    "description": "Simple Stream layer for encryption/decryption",
+    "version": "0.1.0",
+    "author" : "Andris Reinman",
+    "maintainers":[
+        {
+            "name":"andris",
+            "email":"andris@node.ee"
+        }
+    ],
+    "homepage": "http://github.com/andris9/cipher",
+    "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/andris9/cipher.git"
+    },
+    "main" : "./cipher",
+    "licenses" : [
+        {
+            "type": "MIT",
+            "url": "http://github.com/andris9/cipher/blob/master/LICENSE"
+        }
+    ],
+    "engine": [ "node >=0.4.0" ],
+    "keywords": ["cipher", "stream", "cryptography"]
+}
