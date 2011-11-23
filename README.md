@@ -1,16 +1,16 @@
 # cipher
 
-**cipher** is a thin streaming layer for encryption/decryption.
+**cipherstream** is a thin streaming layer for encryption/decryption.
 
 ## Installation
 
-    npm install cipher
+    npm install cipherstream
 
 ## Usage
 
-Require as `cipher`
+Require as `cipherstream`
 
-    var cipher = require("cipher");
+    var cipherstream = require("cipherstream");
 
 ## CipherStream
 
@@ -20,10 +20,10 @@ Require as `cipher`
 
 Example:
 
-    var cipher = require("cipher"),
+    var cipherstream = require("cipherstream"),
         fs = require("fs");
     
-    fs.createReadStream("plain.txt").pipe(new cipher.CipherStream("secret")).pipe(fs.writeReadStream("secret.txt"));
+    fs.createReadStream("plain.txt").pipe(new cipherstream.CipherStream("secret")).pipe(fs.writeReadStream("secret.txt"));
 
 
 ## DecipherStream
@@ -34,16 +34,16 @@ Example:
 
 Example:
 
-    var cipher = require("cipher"),
+    var cipherstream = require("cipherstream"),
         fs = require("fs");
     
-    fs.createReadStream("secret.txt").pipe(new cipher.DecipherStream("secret")).pipe(fs.writeReadStream("plain.txt"));
+    fs.createReadStream("secret.txt").pipe(new cipherstream.DecipherStream("secret")).pipe(fs.writeReadStream("plain.txt"));
 
 ## HMAC
 
 **hmac** is a simple wrapper function to create SHA-256 hmac values.
 
-`cipher.hmac(data, key) → String`
+`cipherstream.hmac(data, key) → String`
 
 ## License
 
