@@ -1,4 +1,4 @@
-# cipher
+# cipherstream
 
 **cipherstream** is a thin streaming layer for encryption/decryption.
 
