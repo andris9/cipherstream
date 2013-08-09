@@ -1,6 +1,6 @@
 # DEPRECATION WARNING
 
-This project is deprecated and might not work with the latest versions of Node.
+This project is deprecated and might not work with the latest versions of Node. Node Crypto module provides the same functionality, so this module isn't even needed.
 
 # cipherstream
 
