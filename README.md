@@ -1,3 +1,7 @@
+# DEPRECATION WARNING
+
+This project is deprecated and might not work with the latest versions of Node.
+
 # cipherstream
 
 **cipherstream** is a thin streaming layer for encryption/decryption in Node.JS.
